@@ -24,7 +24,7 @@ public class Post
 }
 }
 ```
-3. Create a Services Class folder, create a new class ApiService.cs 
+3. Create a Services Class, create a new class ApiService.cs 
 
 ```bash
 using System.Net.Http;
