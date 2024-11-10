@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using RestApiExample.Services;
-using System.Threading.Tasks;
+
 
 namespace RestApiExample.Controllers
 {
