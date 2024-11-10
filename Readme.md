@@ -27,11 +27,6 @@ public class Post
 3. Create a Services Class, create a new class ApiService.cs 
 
 ```bash
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-
 using RestApiExample.Models;
 
 
@@ -72,7 +67,7 @@ builder.Services.AddControllersWithViews()
 ```csharp
 using Microsoft.AspNetCore.Mvc;
 using RestApiExample.Services;
-using System.Threading.Tasks;
+
 
 namespace RestApiExample.Controllers
 {
